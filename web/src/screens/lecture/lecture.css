@@ -1,0 +1,157 @@
+.left-lecture-body {
+    width: 68%;
+    margin-left: 2%;
+    /*height: 100%;*/
+}
+  
+.right-lecture-body {
+    /*width: 30%;*/
+    /*height: 100%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.screen-container {
+    width: 100%;
+    /*height:  calc(100vh - 90px);*/
+    display: flex;
+}
+
+@media (min-width: 1400px) {
+    
+}
+
+@media (max-width: 1400px) {
+
+}
+
+
+
+@media (min-width: 769px) {
+    .screen-container {
+        height: calc(100vh - 90px);
+    }
+    .right-lecture-body {
+        width: 30%;
+        height: 100%;
+    }
+    .left-lecture-body {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .queue-container {
+        width: 95%;
+        height: 33%;
+    }
+    .songCard-body {
+        width: 95%;
+        height: 60%;
+    }
+    .widgetcard-body {
+        padding: 7px;
+        height: 80%;
+    }
+    .widget-title {
+        font-size: small;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+    .entry-title {
+        font-size: small;
+    }
+    .widgets-body {
+        height: 45%;
+        margin-bottom: 3%;
+    }
+    .player-body {
+        height: 50%;
+        width: auto;
+    }
+    .entry-subtitle {
+        display: none;
+    }
+    .entry-body {
+        margin-top: 2%;
+    }
+}
+
+@media (min-width: 1070px) {
+    .entry-subtitle {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .widget-title {
+        font-size: medium;
+    }
+    .entry-title {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 768px) {
+    .screen-container {
+        display: block;
+        height: 150%;
+    }
+    .player-body {
+        margin-top: auto;
+        margin-bottom: 2%;
+    }
+    .left-lecture-body {
+        width: 100%;
+        margin: auto;
+        height: 60%;
+    }
+    .widget-title {
+        font-size: small;
+        text-align: center;
+    }
+    .entry-title {
+        font-size: small;
+    }
+    .entry-subtitle {
+        display: none;
+    }
+    .widgets-body {
+        height: 50%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .widgetcard-body {
+        padding: 7px;
+        height: 100%;
+    }
+    .entry-body {
+        margin-top: 5%;
+    }
+    .right-lecture-body {
+        flex-direction:unset;
+        justify-content: space-evenly;
+        height: 40%;
+        margin-top: 2%;
+    }
+    .songCard-body {
+        width: 50%;
+        margin: 3%;
+    }
+    .queue-container {
+        width: 50%;
+        margin: 3%;
+        margin-bottom: auto;
+        height: 90%;
+    }
+    .player-right-body {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 548px) {
+    .entry-image {
+        display: none;
+    }
+}

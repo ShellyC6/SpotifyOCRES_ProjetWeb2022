@@ -1,0 +1,29 @@
+.card {
+    background: rgb(84,218,173);
+    background: linear-gradient(90deg, rgba(84,218,173,0.15) 0%, rgba(50,51,51,1) 100%);
+    border: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.sous-titre {
+    opacity: 0.6;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.icon {
+    color: rgb(84,218,173);
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.card:hover .fade {
+    opacity: 1;
+}
+
+.card:hover .card-body {
+    opacity: 0.6;
+}

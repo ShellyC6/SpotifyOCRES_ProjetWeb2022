@@ -1,0 +1,23 @@
+.nav {
+    height: 90px;
+    background-color: rgb(84, 218, 173);
+}
+
+.button {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    color: rgb(185, 244, 224);
+    font-size:large;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    color: white;
+}
+
+.active {
+    background-color: #79e4c0;
+    color: white;
+    transform: scale(1.1);
+}
